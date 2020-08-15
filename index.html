@@ -1,15 +1,28 @@
 <html>
   <body>
-    <div id="app"></div>
-    <div class="pilihan-mobil">
-      <img class="on" src="bola_merah.png"></img>
-      <img class="" src="bola_biru.png"></img>
-      <img class="" src="bola_kuning.png"></img>
-      <div class="tombol">
-      </div>
+    <div id="app">
+      <h1>Kalkulator Simpel</h1>
+      <input 
+        type="text" 
+        id="angka1"
+        placeholder="angka1">
+      <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="x">x</option>
+      </select>
+      <input 
+        type="text" 
+        id="angka2"
+        placeholder="angka2">
+      <button id="hitung" onclick="Hitung()">=</button>
+      <input 
+        type="text" 
+        id="hasil"
+        placeholder="hasil">
     </div>
-    <script>
-      
+    <script src="index.js">
     </script>
   </body>
 </html>
